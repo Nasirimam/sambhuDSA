@@ -1,0 +1,12 @@
+let a = 8;
+let b = 12;
+let c = ++a + b++;
+c--;
+--b;
+let d = c-- + ++b + ++a;
+let e = a + ++b + c + d++;
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
+console.log(++e);
